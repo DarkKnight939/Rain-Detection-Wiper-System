@@ -17,7 +17,7 @@ The system includes both **analog and digital components**, with a real-time **A
 
 ---
 
-## 🔧 Components Used
+## Components Used
 
 - Rain Sensor Module  
 - Operational Amplifiers (LM358)  

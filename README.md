@@ -1,6 +1,6 @@
 # Rain-Detection-Wiper-System
 
-This is an **embedded system project** that implements a **rain-sensing wiper control circuit**. It intelligently adjusts the speed of a **DC motor-driven wiper** based on the **intensity of rainfall**, ensuring optimal visibility and energy efficiency.
+This is an **analog and embedded system project** that implements a **rain-sensing wiper control circuit**. It intelligently adjusts the speed of a **DC motor-driven wiper** based on the **intensity of rainfall**, ensuring optimal visibility and energy efficiency.
 
 The system includes both **analog and digital components**, with a real-time **Arduino-based speedometer** to monitor wiper speed.
 

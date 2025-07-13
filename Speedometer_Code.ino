@@ -14,9 +14,9 @@ void setup() {
   pinMode(irSensorPin, INPUT);  
   Serial.begin(9600);           
   myServo.attach(servoPin);      
-  myServo.write(0);  // Set servo to initial position (0 degrees)
+  myServo.write(0);  // Setting servo to 0 degrees
   
-  // Set LED pins as OUTPUT and turn them off initially
+  // Seting LED pins as OUTPUT and turn them off initially
   for (int i = 0; i < 4; i++) {
     pinMode(ledPins[i], OUTPUT);
     digitalWrite(ledPins[i], LOW);
@@ -57,7 +57,7 @@ void loop() {
     wafferPassed = false;
   }
   
-  delay(50);  // Small delay for stability
+  delay(50);
 }
 
 int getServoAngle(unsigned long timeDiff) {
